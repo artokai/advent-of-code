@@ -1,6 +1,6 @@
 # Advent of Code - 2024
 
-| Day | Title | Part A | Part B |
+| Day | Title | Part 1 | Part 2 |
 | --: | :---- | :----- | :----- |
 | 1 | [Historian Hysteria](https://adventofcode.com/2024/day/1) | [Part 1](D01/PartA.cs) | [Part 2](D01/PartB.cs) |
 | 2 | [Red-Nosed Reports](https://adventofcode.com/2024/day/2) | [Part 1](D02/PartA.cs) | [Part 2](D02/PartB.cs) |

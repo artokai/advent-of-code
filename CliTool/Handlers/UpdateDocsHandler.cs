@@ -65,7 +65,7 @@ public class UpdateDocsHandler
         var sb = new StringBuilder();
         sb.Append($"# Advent of Code - {year}\n");
         sb.Append('\n');
-        sb.Append("| Day | Title | Part A | Part B |\n");
+        sb.Append("| Day | Title | Part 1 | Part 2 |\n");
         sb.Append("| --: | :---- | :----- | :----- |\n");
         for (var day = 1; day <= 25; day++) {
             var title = puzzles.ContainsKey(day) ? puzzles[day].Title : "???";
@@ -89,7 +89,7 @@ public class UpdateDocsHandler
                 var year = puzzles.Keys.OrderByDescending(year => year).First();
                 sb.Append($"## Year {year}\n");
                 sb.Append('\n');
-                sb.Append("| Day | Title | Part A | Part B |\n");
+                sb.Append("| Day | Title | Part 1 | Part 2 |\n");
                 sb.Append("| --: | :---- | :----- | :----- |\n");
                 for (var day = 1; day <= 25; day++) {
                     var title = puzzles[year].ContainsKey(day) ? puzzles[year][day].Title : "???";
