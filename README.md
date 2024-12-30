@@ -11,7 +11,7 @@ This repository contains my solutions to the puzzles I've solved so far. The rep
 | 2 | [Red-Nosed Reports](https://adventofcode.com/2024/day/2) | [Part 1](Puzzles/Y2024/D02/PartA.cs) | [Part 2](Puzzles/Y2024/D02/PartB.cs) |
 | 3 | [Mull It Over](https://adventofcode.com/2024/day/3) | [Part 1](Puzzles/Y2024/D03/PartA.cs) | [Part 2](Puzzles/Y2024/D03/PartB.cs) |
 | 4 | [Ceres Search](https://adventofcode.com/2024/day/4) | [Part 1](Puzzles/Y2024/D04/PartA.cs) | [Part 2](Puzzles/Y2024/D04/PartB.cs) |
-| 5 | [???](https://adventofcode.com/2024/day/5) |  |  |
+| 5 | [Print Queue](https://adventofcode.com/2024/day/5) | [Part 1](Puzzles/Y2024/D05/PartA.cs) | [Part 2](Puzzles/Y2024/D05/PartB.cs) |
 | 6 | [???](https://adventofcode.com/2024/day/6) |  |  |
 | 7 | [???](https://adventofcode.com/2024/day/7) |  |  |
 | 8 | [???](https://adventofcode.com/2024/day/8) |  |  |

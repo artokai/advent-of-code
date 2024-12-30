@@ -13,6 +13,13 @@ public class PuzzleInput
         InputPath = inputPath;
     }
 
+    public PuzzleInput(string inputPath, List<string> lines)
+    {
+        ArgumentException.ThrowIfNullOrEmpty(inputPath, nameof(inputPath));
+        InputPath = inputPath;
+        _lines = lines;
+    }
+
     public List<string> AsLines()
     {
         if (_lines == null)
@@ -88,5 +95,29 @@ public class PuzzleInput
             table[i] = lines[i].ToCharArray();
         }
         return table;
+    }
+
+    public List<PuzzleInput> SplitOnEmptyLines()
+    {
+        var sourceLines = AsLines();
+        var splitInput = new List<PuzzleInput>();
+        var currentInput = new List<string>();
+        foreach (var line in sourceLines)
+        {
+            if (string.IsNullOrWhiteSpace(line))
+            {
+                splitInput.Add(new PuzzleInput(InputPath, currentInput));
+                currentInput = new List<string>();
+            }
+            else
+            {
+                currentInput.Add(line);
+            }
+        }
+        if (currentInput.Count > 0)
+        {
+            splitInput.Add(new PuzzleInput(InputPath, currentInput));
+        }
+        return splitInput;
     }
 }
