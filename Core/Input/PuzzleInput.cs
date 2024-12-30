@@ -42,7 +42,8 @@ public class PuzzleInput
         });
     }
 
-    public List<List<T>> AsColumns<T>(char[]? separators = null, IFormatProvider? formatProvider = null) where T : IParsable<T>
+    public List<List<T>> AsColumns<T>(char[]? separators = null, IFormatProvider? formatProvider = null)
+        where T : IParsable<T>
     {
         separators ??= [' ', '\t', ',', ';'];
         formatProvider ??= CultureInfo.InvariantCulture;
@@ -61,5 +62,31 @@ public class PuzzleInput
             }
         }
         return columns;
+    }
+
+    public List<List<T>> AsLists<T>(char[]? separators = null, IFormatProvider? formatProvider = null)
+        where T : IParsable<T>
+    {
+        separators ??= [' ', '\t', ',', ';'];
+        formatProvider ??= CultureInfo.InvariantCulture;
+        var lists = new List<List<T>>();
+        var lines = AsLines();
+        foreach (var line in lines)
+        {
+            var parts = line.Split(separators, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+            lists.Add(parts.Select(part => T.Parse(part, formatProvider)).ToList());
+        }
+        return lists;
+    }
+
+    public char[][] AsCharTable()
+    {
+        var lines = AsLines();
+        var table = new char[lines.Count][];
+        for (int i = 0; i < lines.Count; i++)
+        {
+            table[i] = lines[i].ToCharArray();
+        }
+        return table;
     }
 }

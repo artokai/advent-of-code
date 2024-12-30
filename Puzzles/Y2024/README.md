@@ -3,9 +3,9 @@
 | Day | Title | Part A | Part B |
 | --: | :---- | :----- | :----- |
 | 1 | [Historian Hysteria](https://adventofcode.com/2024/day/1) | [Part 1](D01/PartA.cs) | [Part 2](D01/PartB.cs) |
-| 2 | [???](https://adventofcode.com/2024/day/2) |  |  |
-| 3 | [???](https://adventofcode.com/2024/day/3) |  |  |
-| 4 | [???](https://adventofcode.com/2024/day/4) |  |  |
+| 2 | [Red-Nosed Reports](https://adventofcode.com/2024/day/2) | [Part 1](D02/PartA.cs) | [Part 2](D02/PartB.cs) |
+| 3 | [Mull It Over](https://adventofcode.com/2024/day/3) | [Part 1](D03/PartA.cs) | [Part 2](D03/PartB.cs) |
+| 4 | [Ceres Search](https://adventofcode.com/2024/day/4) | [Part 1](D04/PartA.cs) | [Part 2](D04/PartB.cs) |
 | 5 | [???](https://adventofcode.com/2024/day/5) |  |  |
 | 6 | [???](https://adventofcode.com/2024/day/6) |  |  |
 | 7 | [???](https://adventofcode.com/2024/day/7) |  |  |
