@@ -42,5 +42,3 @@ public class FetchHandler
         File.Copy(Path.Combine(targetFolder, "input.txt"), Path.Combine(targetFolder, "input_original.txt"), true);
     }
 }
-
-

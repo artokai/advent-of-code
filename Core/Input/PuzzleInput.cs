@@ -86,13 +86,16 @@ public class PuzzleInput
         return lists;
     }
 
-    public char[][] AsCharTable()
+    public char[,] AsCharTable()
     {
         var lines = AsLines();
-        var table = new char[lines.Count][];
-        for (int i = 0; i < lines.Count; i++)
+        var table = new char[lines[0].Length, lines.Count];
+        for (int y = 0; y < lines.Count; y++)
         {
-            table[i] = lines[i].ToCharArray();
+            for (int x = 0; x < lines[y].Length; x++)
+            {
+                table[x, y] = lines[y][x];
+            }
         }
         return table;
     }

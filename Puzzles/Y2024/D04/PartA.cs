@@ -10,32 +10,31 @@ public class PartA : SolverBase
 
     public override string Solve()
     {
-        var input = Input.AsCharTable();
+        var input = Input.AsLines();
         var result = 0;
-        for (var y = 0; y < input.Length; y++)
+        for (var y = 0; y < input.Count; y++)
         {
             for (var x = 0; x < input[0].Length; x++)
             {
-
                 if (x <= input[0].Length - NEEDLE.Length)
                 {
-                    var horizontal = new string(input[y][x..(x + NEEDLE.Length)]);
+                    var horizontal = new string(input[y].AsSpan(x, NEEDLE.Length));
                     result += (horizontal == NEEDLE || horizontal == REVERSE_NEEDLE) ? 1 : 0;
                 }
 
-                if (y <= input.Length - NEEDLE.Length)
+                if (y <= input.Count - NEEDLE.Length)
                 {
                     var vertical = new string(input[y..(y + NEEDLE.Length)].Select(row => row[x]).ToArray());
                     result += (vertical == NEEDLE || vertical == REVERSE_NEEDLE) ? 1 : 0;
                 }
 
-                if (x <= input[0].Length - NEEDLE.Length && y <= input.Length - NEEDLE.Length)
+                if (x <= input[0].Length - NEEDLE.Length && y <= input.Count - NEEDLE.Length)
                 {
                     var diagonal_se = new string(input[y..(y + NEEDLE.Length)].Select((row, i) => row[x + i]).ToArray());
                     result += (diagonal_se == NEEDLE || diagonal_se == REVERSE_NEEDLE) ? 1 : 0;
                 }
 
-                if (x >= NEEDLE.Length - 1 && y <= input.Length - NEEDLE.Length)
+                if (x >= NEEDLE.Length - 1 && y <= input.Count - NEEDLE.Length)
                 {
                     var diagonal_sw = new string(input[y..(y + NEEDLE.Length)].Select((row, i) => row[x - i]).ToArray());
                     result += (diagonal_sw == NEEDLE || diagonal_sw == REVERSE_NEEDLE) ? 1 : 0;

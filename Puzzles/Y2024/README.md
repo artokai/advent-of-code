@@ -26,4 +26,4 @@
 | 22 | [???](https://adventofcode.com/2024/day/22) |  |  |
 | 23 | [???](https://adventofcode.com/2024/day/23) |  |  |
 | 24 | [???](https://adventofcode.com/2024/day/24) |  |  |
-| 25 | [???](https://adventofcode.com/2024/day/25) |  |  |
+| 25 | [Code Chronicle](https://adventofcode.com/2024/day/25) | [Part 1](D25/PartA.cs) |  |

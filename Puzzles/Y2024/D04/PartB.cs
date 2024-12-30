@@ -30,9 +30,9 @@ public class PartB : SolverBase
 
     public override string Solve()
     {
-        var input = Input.AsCharTable();
+        var input = Input.AsLines();
         var result = 0;
-        for (var y = 0; y <= input.Length - 3; y++)
+        for (var y = 0; y <= input.Count - 3; y++)
         {
             for (var x = 0; x <= input[y].Length - 3; x++)
             {
