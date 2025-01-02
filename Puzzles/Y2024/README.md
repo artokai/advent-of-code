@@ -12,7 +12,7 @@
 | 8 | [???](https://adventofcode.com/2024/day/8) |  |  |
 | 9 | [???](https://adventofcode.com/2024/day/9) |  |  |
 | 10 | [???](https://adventofcode.com/2024/day/10) |  |  |
-| 11 | [???](https://adventofcode.com/2024/day/11) |  |  |
+| 11 | [Plutonian Pebbles](https://adventofcode.com/2024/day/11) | [Part 1](D11/PartA.cs) | [Part 2](D11/PartB.cs) |
 | 12 | [???](https://adventofcode.com/2024/day/12) |  |  |
 | 13 | [???](https://adventofcode.com/2024/day/13) |  |  |
 | 14 | [???](https://adventofcode.com/2024/day/14) |  |  |
