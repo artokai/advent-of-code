@@ -63,8 +63,7 @@ public class Program
         solveCommand.AddOption(dayOption);
         solveCommand.SetHandler(solveHandler.InvokeAsync, yearOption, dayOption);
 
-
-        // Doc
+        // UpdateDocs
         var updateDocsHandler = new UpdateDocsHandler(configuration);
         var updateDocsCommand = new Command(
             name: "updatedocs",
@@ -72,22 +71,33 @@ public class Program
         );
         updateDocsCommand.SetHandler(updateDocsHandler.Invoke);
 
+        // Clean
+        var cleanHandler = new CleanHandler();
+        var cleanCommand = new Command(
+            name: "clean",
+            description: "Clean dangling obj and bin directories"
+        );
+        cleanCommand.SetHandler(cleanHandler.Invoke);
+
         // Root
         var rootCommand = new RootCommand("Advent of Code CLI Tool");
         rootCommand.AddCommand(initCommand);
         rootCommand.AddCommand(fetchCommand);
         rootCommand.AddCommand(solveCommand);
         rootCommand.AddCommand(updateDocsCommand);
+        rootCommand.AddCommand(cleanCommand);
 
         return rootCommand;
     }
 
-    public static IConfiguration LoadConfiguration() {
+    public static IConfiguration LoadConfiguration()
+    {
         var environment = Environment.GetEnvironmentVariable("DOTNET_ENVIRONMENT") ?? "Development";
         var builder = new ConfigurationBuilder()
             .AddJsonFile("appsettings.json", optional: true)
             .AddJsonFile($"appsettings.{environment}.json", optional: true);
-        if (environment.Equals("Development", StringComparison.OrdinalIgnoreCase)) {
+        if (environment.Equals("Development", StringComparison.OrdinalIgnoreCase))
+        {
             builder.AddUserSecrets<Program>(optional: true);
         }
         builder.AddEnvironmentVariables();
