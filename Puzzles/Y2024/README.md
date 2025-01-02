@@ -9,7 +9,7 @@
 | 5 | [Print Queue](https://adventofcode.com/2024/day/5) | [Part 1](D05/PartA.cs) | [Part 2](D05/PartB.cs) |
 | 6 | [Guard Gallivant](https://adventofcode.com/2024/day/6) | [Part 1](D06/PartA.cs) | [Part 2](D06/PartB.cs) |
 | 7 | [Bridge Repair](https://adventofcode.com/2024/day/7) | [Part 1](D07/PartA.cs) | [Part 2](D07/PartB.cs) |
-| 8 | [???](https://adventofcode.com/2024/day/8) |  |  |
+| 8 | [Resonant Collinearity](https://adventofcode.com/2024/day/8) | [Part 1](D08/PartA.cs) | [Part 2](D08/PartB.cs) |
 | 9 | [???](https://adventofcode.com/2024/day/9) |  |  |
 | 10 | [???](https://adventofcode.com/2024/day/10) |  |  |
 | 11 | [Plutonian Pebbles](https://adventofcode.com/2024/day/11) | [Part 1](D11/PartA.cs) | [Part 2](D11/PartB.cs) |
