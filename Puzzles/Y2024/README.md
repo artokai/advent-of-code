@@ -13,7 +13,7 @@
 | 9 | [Disk Fragmenter](https://adventofcode.com/2024/day/9) | [Part 1](D09/PartA.cs) | [Part 2](D09/PartB.cs) |
 | 10 | [Hoof It](https://adventofcode.com/2024/day/10) | [Part 1](D10/PartA.cs) | [Part 2](D10/PartB.cs) |
 | 11 | [Plutonian Pebbles](https://adventofcode.com/2024/day/11) | [Part 1](D11/PartA.cs) | [Part 2](D11/PartB.cs) |
-| 12 | [???](https://adventofcode.com/2024/day/12) |  |  |
+| 12 | [Garden Groups](https://adventofcode.com/2024/day/12) | [Part 1](D12/PartA.cs) | [Part 2](D12/PartB.cs) |
 | 13 | [???](https://adventofcode.com/2024/day/13) |  |  |
 | 14 | [???](https://adventofcode.com/2024/day/14) |  |  |
 | 15 | [???](https://adventofcode.com/2024/day/15) |  |  |
