@@ -11,7 +11,7 @@
 | 7 | [Bridge Repair](https://adventofcode.com/2024/day/7) | [Part 1](D07/PartA.cs) | [Part 2](D07/PartB.cs) |
 | 8 | [Resonant Collinearity](https://adventofcode.com/2024/day/8) | [Part 1](D08/PartA.cs) | [Part 2](D08/PartB.cs) |
 | 9 | [Disk Fragmenter](https://adventofcode.com/2024/day/9) | [Part 1](D09/PartA.cs) | [Part 2](D09/PartB.cs) |
-| 10 | [???](https://adventofcode.com/2024/day/10) |  |  |
+| 10 | [Hoof It](https://adventofcode.com/2024/day/10) | [Part 1](D10/PartA.cs) | [Part 2](D10/PartB.cs) |
 | 11 | [Plutonian Pebbles](https://adventofcode.com/2024/day/11) | [Part 1](D11/PartA.cs) | [Part 2](D11/PartB.cs) |
 | 12 | [???](https://adventofcode.com/2024/day/12) |  |  |
 | 13 | [???](https://adventofcode.com/2024/day/13) |  |  |

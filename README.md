@@ -16,7 +16,7 @@ This repository contains my solutions to the puzzles I've solved so far. The rep
 | 7 | [Bridge Repair](https://adventofcode.com/2024/day/7) | [Part 1](Puzzles/Y2024/D07/PartA.cs) | [Part 2](Puzzles/Y2024/D07/PartB.cs) |
 | 8 | [Resonant Collinearity](https://adventofcode.com/2024/day/8) | [Part 1](Puzzles/Y2024/D08/PartA.cs) | [Part 2](Puzzles/Y2024/D08/PartB.cs) |
 | 9 | [Disk Fragmenter](https://adventofcode.com/2024/day/9) | [Part 1](Puzzles/Y2024/D09/PartA.cs) | [Part 2](Puzzles/Y2024/D09/PartB.cs) |
-| 10 | [???](https://adventofcode.com/2024/day/10) |  |  |
+| 10 | [Hoof It](https://adventofcode.com/2024/day/10) | [Part 1](Puzzles/Y2024/D10/PartA.cs) | [Part 2](Puzzles/Y2024/D10/PartB.cs) |
 | 11 | [Plutonian Pebbles](https://adventofcode.com/2024/day/11) | [Part 1](Puzzles/Y2024/D11/PartA.cs) | [Part 2](Puzzles/Y2024/D11/PartB.cs) |
 | 12 | [???](https://adventofcode.com/2024/day/12) |  |  |
 | 13 | [???](https://adventofcode.com/2024/day/13) |  |  |
