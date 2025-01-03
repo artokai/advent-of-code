@@ -9,7 +9,7 @@
 | 5 | [Doesn't He Have Intern-Elves For This?](https://adventofcode.com/2015/day/5) | [Part 1](D05/PartA.cs) | [Part 2](D05/PartB.cs) |
 | 6 | [Probably a Fire Hazard](https://adventofcode.com/2015/day/6) | [Part 1](D06/PartA.cs) | [Part 2](D06/PartB.cs) |
 | 7 | [Some Assembly Required](https://adventofcode.com/2015/day/7) | [Part 1](D07/PartA.cs) | [Part 2](D07/PartB.cs) |
-| 8 | [???](https://adventofcode.com/2015/day/8) |  |  |
+| 8 | [Matchsticks](https://adventofcode.com/2015/day/8) | [Part 1](D08/PartA.cs) | [Part 2](D08/PartB.cs) |
 | 9 | [???](https://adventofcode.com/2015/day/9) |  |  |
 | 10 | [???](https://adventofcode.com/2015/day/10) |  |  |
 | 11 | [???](https://adventofcode.com/2015/day/11) |  |  |
