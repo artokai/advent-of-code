@@ -35,6 +35,13 @@ public class PuzzleInput
 
     public string AsSingleLine() => string.Join("", AsLines());
 
+    public List<T> AsListOf<T>(IFormatProvider? formatProvider = null)
+        where T : IParsable<T>
+    {
+        formatProvider ??= CultureInfo.InvariantCulture;
+        return AsLines().Select(l => T.Parse(l, formatProvider)).ToList();
+    }
+
     public IEnumerable<(T1, T2)> AsPairs<T1, T2>(char[]? separators = null, IFormatProvider? formatProvider = null)
         where T1 : IParsable<T1>
         where T2 : IParsable<T2>

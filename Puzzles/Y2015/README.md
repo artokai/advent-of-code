@@ -25,5 +25,5 @@
 | 21 | [???](https://adventofcode.com/2015/day/21) |  |  |
 | 22 | [???](https://adventofcode.com/2015/day/22) |  |  |
 | 23 | [???](https://adventofcode.com/2015/day/23) |  |  |
-| 24 | [???](https://adventofcode.com/2015/day/24) |  |  |
+| 24 | [It Hangs in the Balance](https://adventofcode.com/2015/day/24) | [Part 1](D24/PartA.cs) | [Part 2](D24/PartB.cs) |
 | 25 | [???](https://adventofcode.com/2015/day/25) |  |  |

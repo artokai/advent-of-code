@@ -6,6 +6,7 @@
 # Build
 obj/
 bin/
+publish/
 
 # Log files
 *.log
