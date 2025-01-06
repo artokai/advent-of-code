@@ -50,8 +50,8 @@ dotnet run -- solve --year <year> --day <day>
 
 Another way to run a puzzle solver is to run the daily solver directly.
 This is useful when you're still developing the answer to the puzzle or need to debug it.
-This approach does not automatically fetch the `input.txt` automatically, so you may need
-to fetch it manually and place it in the same directory.
+This approach does not automatically fetch the `input.txt`, so you may need
+to fetch it either manually or by using the clitool's `fetch` command. 
 
 ```
 cd Puzzles/Y2015/D01
