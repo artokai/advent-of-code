@@ -19,7 +19,7 @@ public class CleanHandler
 
     private void CleanPuzzle(string puzzleDirectory)
     {
-        var dirnamesToRemove = new[] { "bin", "obj", ".vscode", ".vs" };
+        var dirnamesToRemove = new[] { "bin", "obj", "publish", ".vscode", ".vs" };
         var directoriesToRemove = Directory.GetDirectories(puzzleDirectory)
             .Where(d =>
             {
