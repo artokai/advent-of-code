@@ -14,7 +14,7 @@
 | 10 | [Hoof It](https://adventofcode.com/2024/day/10) | [Part 1](D10/PartA.cs) | [Part 2](D10/PartB.cs) |
 | 11 | [Plutonian Pebbles](https://adventofcode.com/2024/day/11) | [Part 1](D11/PartA.cs) | [Part 2](D11/PartB.cs) |
 | 12 | [Garden Groups](https://adventofcode.com/2024/day/12) | [Part 1](D12/PartA.cs) | [Part 2](D12/PartB.cs) |
-| 13 | [???](https://adventofcode.com/2024/day/13) |  |  |
+| 13 | [Claw Contraption](https://adventofcode.com/2024/day/13) | [Part 1](D13/PartA.cs) | [Part 2](D13/PartB.cs) |
 | 14 | [???](https://adventofcode.com/2024/day/14) |  |  |
 | 15 | [???](https://adventofcode.com/2024/day/15) |  |  |
 | 16 | [???](https://adventofcode.com/2024/day/16) |  |  |
