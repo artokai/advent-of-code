@@ -18,7 +18,7 @@
 | 14 | [Restroom Redoubt](https://adventofcode.com/2024/day/14) | [Part 1](D14/PartA.cs) | [Part 2](D14/PartB.cs) |
 | 15 | [???](https://adventofcode.com/2024/day/15) |  |  |
 | 16 | [???](https://adventofcode.com/2024/day/16) |  |  |
-| 17 | [???](https://adventofcode.com/2024/day/17) |  |  |
+| 17 | [Chronospatial Computer](https://adventofcode.com/2024/day/17) | [Part 1](D17/PartA.cs) | [Part 2](D17/PartB.cs) |
 | 18 | [???](https://adventofcode.com/2024/day/18) |  |  |
 | 19 | [???](https://adventofcode.com/2024/day/19) |  |  |
 | 20 | [???](https://adventofcode.com/2024/day/20) |  |  |
