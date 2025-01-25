@@ -13,7 +13,7 @@
 | 9 | [All in a Single Night](https://adventofcode.com/2015/day/9) | [Part 1](D09/PartA.cs) | [Part 2](D09/PartB.cs) |
 | 10 | [Elves Look, Elves Say](https://adventofcode.com/2015/day/10) | [Part 1](D10/PartA.cs) | [Part 2](D10/PartB.cs) |
 | 11 | [Corporate Policy](https://adventofcode.com/2015/day/11) | [Part 1](D11/PartA.cs) | [Part 2](D11/PartB.cs) |
-| 12 | [???](https://adventofcode.com/2015/day/12) |  |  |
+| 12 | [JSAbacusFramework.io](https://adventofcode.com/2015/day/12) | [Part 1](D12/PartA.cs) | [Part 2](D12/PartB.cs) |
 | 13 | [???](https://adventofcode.com/2015/day/13) |  |  |
 | 14 | [???](https://adventofcode.com/2015/day/14) |  |  |
 | 15 | [???](https://adventofcode.com/2015/day/15) |  |  |
