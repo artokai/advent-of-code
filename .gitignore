@@ -3,6 +3,9 @@
 .vscode/
 .vs/
 
+# Puzzle specific solution files
+Puzzles/**/*.sln
+
 # Build
 obj/
 bin/
