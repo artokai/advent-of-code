@@ -23,7 +23,7 @@
 | 19 | [Medicine for Rudolph](https://adventofcode.com/2015/day/19) | [Part 1](D19/PartA.cs) | [Part 2](D19/PartB.cs) |
 | 20 | [Infinite Elves and Infinite Houses](https://adventofcode.com/2015/day/20) | [Part 1](D20/PartA.cs) | [Part 2](D20/PartB.cs) |
 | 21 | [RPG Simulator 20XX](https://adventofcode.com/2015/day/21) | [Part 1](D21/PartA.cs) | [Part 2](D21/PartB.cs) |
-| 22 | [???](https://adventofcode.com/2015/day/22) |  |  |
+| 22 | [Wizard Simulator 20XX](https://adventofcode.com/2015/day/22) | [Part 1](D22/PartA.cs) | [Part 2](D22/PartB.cs) |
 | 23 | [???](https://adventofcode.com/2015/day/23) |  |  |
 | 24 | [It Hangs in the Balance](https://adventofcode.com/2015/day/24) | [Part 1](D24/PartA.cs) | [Part 2](D24/PartB.cs) |
 | 25 | [Let It Snow](https://adventofcode.com/2015/day/25) | [Part 1](D25/PartA.cs) |  |
