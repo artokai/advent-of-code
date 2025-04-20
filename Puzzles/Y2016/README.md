@@ -6,7 +6,7 @@
 | 2 | [Bathroom Security](https://adventofcode.com/2016/day/2) | [Part 1](D02/PartA.cs) | [Part 2](D02/PartB.cs) |
 | 3 | [Squares With Three Sides](https://adventofcode.com/2016/day/3) | [Part 1](D03/PartA.cs) | [Part 2](D03/PartB.cs) |
 | 4 | [Security Through Obscurity](https://adventofcode.com/2016/day/4) | [Part 1](D04/PartA.cs) | [Part 2](D04/PartB.cs) |
-| 5 | [???](https://adventofcode.com/2016/day/5) |  |  |
+| 5 | [How About a Nice Game of Chess?](https://adventofcode.com/2016/day/5) | [Part 1](D05/PartA.cs) | [Part 2](D05/PartB.cs) |
 | 6 | [???](https://adventofcode.com/2016/day/6) |  |  |
 | 7 | [???](https://adventofcode.com/2016/day/7) |  |  |
 | 8 | [???](https://adventofcode.com/2016/day/8) |  |  |
