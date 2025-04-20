@@ -65,7 +65,11 @@ public class PuzzleInput
         var lines = AsLines();
         foreach (var line in lines)
         {
-            var parts = line.Split(separators, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries);
+            // Empty separators will split each character to a column
+            var parts = (separators.Length > 0) 
+                ? line.Split(separators, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries)
+                : line.Select(c => c.ToString()).ToArray();
+
             for (int i = 0; i < parts.Length; i++)
             {
                 if (columns.Count <= i)
