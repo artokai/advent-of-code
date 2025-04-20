@@ -24,6 +24,6 @@
 | 20 | [Infinite Elves and Infinite Houses](https://adventofcode.com/2015/day/20) | [Part 1](D20/PartA.cs) | [Part 2](D20/PartB.cs) |
 | 21 | [RPG Simulator 20XX](https://adventofcode.com/2015/day/21) | [Part 1](D21/PartA.cs) | [Part 2](D21/PartB.cs) |
 | 22 | [Wizard Simulator 20XX](https://adventofcode.com/2015/day/22) | [Part 1](D22/PartA.cs) | [Part 2](D22/PartB.cs) |
-| 23 | [???](https://adventofcode.com/2015/day/23) |  |  |
+| 23 | [Opening the Turing Lock](https://adventofcode.com/2015/day/23) | [Part 1](D23/PartA.cs) | [Part 2](D23/PartB.cs) |
 | 24 | [It Hangs in the Balance](https://adventofcode.com/2015/day/24) | [Part 1](D24/PartA.cs) | [Part 2](D24/PartB.cs) |
 | 25 | [Let It Snow](https://adventofcode.com/2015/day/25) | [Part 1](D25/PartA.cs) |  |
