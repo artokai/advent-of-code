@@ -10,7 +10,7 @@
 | 6 | [Signals and Noise](https://adventofcode.com/2016/day/6) | [Part 1](D06/PartA.cs) | [Part 2](D06/PartB.cs) |
 | 7 | [Internet Protocol Version 7](https://adventofcode.com/2016/day/7) | [Part 1](D07/PartA.cs) | [Part 2](D07/PartB.cs) |
 | 8 | [Two-Factor Authentication](https://adventofcode.com/2016/day/8) | [Part 1](D08/PartA.cs) | [Part 2](D08/PartB.cs) |
-| 9 | [???](https://adventofcode.com/2016/day/9) |  |  |
+| 9 | [Explosives in Cyberspace](https://adventofcode.com/2016/day/9) | [Part 1](D09/PartA.cs) | [Part 2](D09/PartB.cs) |
 | 10 | [???](https://adventofcode.com/2016/day/10) |  |  |
 | 11 | [???](https://adventofcode.com/2016/day/11) |  |  |
 | 12 | [???](https://adventofcode.com/2016/day/12) |  |  |
