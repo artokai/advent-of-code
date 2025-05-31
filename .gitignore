@@ -3,8 +3,10 @@
 .vscode/
 .vs/
 
-# Puzzle specific solution files
+# Automatically generated and unnecessary solution files
 Puzzles/**/*.sln
+CliTool/*.sln
+Core/*.sln
 
 # Build
 obj/
