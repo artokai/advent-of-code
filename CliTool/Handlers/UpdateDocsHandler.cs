@@ -119,9 +119,11 @@ public class UpdateDocsHandler
                 shouldSkip = true;
                 sb.Append(line + "\n");
                 sb.Append('\n');
+
                 foreach (var year in puzzles.Keys.OrderByDescending(year => year))
                 {
-                    sb.Append($"- [{year}](Puzzles/Y{year}/README.md)\n");
+                    var completedDaysCount = puzzles[year].Values.Count();
+                    sb.Append($"- [{year}](Puzzles/Y{year}/README.md) ({completedDaysCount} / 25)\n");
                 }
                 sb.Append("\n");
             }
