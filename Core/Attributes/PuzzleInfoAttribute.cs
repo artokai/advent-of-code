@@ -1,4 +1,4 @@
-﻿
+
 namespace Artokai.AOC.Core;
 
 public class PuzzleInfoAttribute(int year, int day, int part, string title) : Attribute

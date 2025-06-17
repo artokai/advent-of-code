@@ -1,4 +1,4 @@
-﻿using Artokai.AOC.Core.Input;
+using Artokai.AOC.Core.Input;
 
 namespace Artokai.AOC.Core;
 

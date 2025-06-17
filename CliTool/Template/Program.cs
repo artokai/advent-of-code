@@ -1,4 +1,4 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 
 namespace Artokai.AOC.Puzzles.Y%%YYYY%%.D%%DD%%;
 
