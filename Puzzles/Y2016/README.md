@@ -17,8 +17,8 @@
 | 13 | [A Maze of Twisty Little Cubicles](https://adventofcode.com/2016/day/13) | [Part 1](D13/PartA.cs) | [Part 2](D13/PartB.cs) |
 | 14 | [One-Time Pad](https://adventofcode.com/2016/day/14) | [Part 1](D14/PartA.cs) | [Part 2](D14/PartB.cs) |
 | 15 | [Timing is Everything](https://adventofcode.com/2016/day/15) | [Part 1](D15/PartA.cs) | [Part 2](D15/PartB.cs) |
-| 16 | [Dragon Checksum](https://adventofcode.com/2016/day/16) | [Part 1](D16/Solver.cs) | [Part 2](D16/PartB.cs) |
-| 17 | [???](https://adventofcode.com/2016/day/17) |  |  |
+| 16 | [Dragon Checksum](https://adventofcode.com/2016/day/16) |  | [Part 2](D16/PartB.cs) |
+| 17 | [Two Steps Forward](https://adventofcode.com/2016/day/17) | [Part 1](D17/PartA.cs) | [Part 2](D17/PartB.cs) |
 | 18 | [???](https://adventofcode.com/2016/day/18) |  |  |
 | 19 | [???](https://adventofcode.com/2016/day/19) |  |  |
 | 20 | [???](https://adventofcode.com/2016/day/20) |  |  |
