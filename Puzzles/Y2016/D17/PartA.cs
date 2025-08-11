@@ -8,24 +8,7 @@ public class PartA : SolverBase
     public override string Solve()
     {
         var passcode = Input.AsSingleLine().Trim();
-        var initialHash = Helper.ComputeHash(passcode);
-        var queue = new Queue<State>();
-        queue.Enqueue(new State(Helper.InitialPosition, "", initialHash));
-
-        while (queue.Count > 0)
-        {
-            var state = queue.Dequeue();
-            if (state.Position == Helper.TargetPosition)
-            {
-                return state.Path;
-            }
-
-            foreach (var next in Helper.GetNextStates(state, passcode))
-            {
-                queue.Enqueue(next);
-            }
-        }
-
-        return "No solution found!";
+        var shortest = Solver.Solve(passcode).FirstOrDefault();
+        return shortest == null ? "No solution found!" : shortest;
     }
 }
