@@ -20,7 +20,7 @@
 | 16 | [Dragon Checksum](https://adventofcode.com/2016/day/16) | [Part 1](D16/PartA.cs) | [Part 2](D16/PartB.cs) |
 | 17 | [Two Steps Forward](https://adventofcode.com/2016/day/17) | [Part 1](D17/PartA.cs) | [Part 2](D17/PartB.cs) |
 | 18 | [Like a Rogue](https://adventofcode.com/2016/day/18) | [Part 1](D18/PartA.cs) | [Part 2](D18/PartB.cs) |
-| 19 | [???](https://adventofcode.com/2016/day/19) |  |  |
+| 19 | [An Elephant Named Joseph](https://adventofcode.com/2016/day/19) | [Part 1](D19/PartA.cs) | [Part 2](D19/PartB.cs) |
 | 20 | [???](https://adventofcode.com/2016/day/20) |  |  |
 | 21 | [???](https://adventofcode.com/2016/day/21) |  |  |
 | 22 | [???](https://adventofcode.com/2016/day/22) |  |  |
