@@ -22,7 +22,7 @@
 | 18 | [Like a Rogue](https://adventofcode.com/2016/day/18) | [Part 1](D18/PartA.cs) | [Part 2](D18/PartB.cs) |
 | 19 | [An Elephant Named Joseph](https://adventofcode.com/2016/day/19) | [Part 1](D19/PartA.cs) | [Part 2](D19/PartB.cs) |
 | 20 | [Firewall Rules](https://adventofcode.com/2016/day/20) | [Part 1](D20/PartA.cs) | [Part 2](D20/PartB.cs) |
-| 21 | [???](https://adventofcode.com/2016/day/21) |  |  |
+| 21 | [Scrambled Letters and Hash](https://adventofcode.com/2016/day/21) | [Part 1](D21/PartA.cs) | [Part 2](D21/PartB.cs) |
 | 22 | [???](https://adventofcode.com/2016/day/22) |  |  |
 | 23 | [???](https://adventofcode.com/2016/day/23) |  |  |
 | 24 | [???](https://adventofcode.com/2016/day/24) |  |  |
