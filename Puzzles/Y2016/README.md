@@ -24,6 +24,6 @@
 | 20 | [Firewall Rules](https://adventofcode.com/2016/day/20) | [Part 1](D20/PartA.cs) | [Part 2](D20/PartB.cs) |
 | 21 | [Scrambled Letters and Hash](https://adventofcode.com/2016/day/21) | [Part 1](D21/PartA.cs) | [Part 2](D21/PartB.cs) |
 | 22 | [Grid Computing](https://adventofcode.com/2016/day/22) | [Part 1](D22/PartA.cs) | [Part 2](D22/PartB.cs) |
-| 23 | [???](https://adventofcode.com/2016/day/23) |  |  |
+| 23 | [Safe Cracking](https://adventofcode.com/2016/day/23) | [Part 1](D23/PartA.cs) | [Part 2](D23/PartB.cs) |
 | 24 | [???](https://adventofcode.com/2016/day/24) |  |  |
 | 25 | [???](https://adventofcode.com/2016/day/25) |  |  |

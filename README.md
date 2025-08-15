@@ -36,7 +36,7 @@ This repository contains my solutions to the puzzles I've solved so far. The rep
 ## All years
 
 - [2024](Puzzles/Y2024/README.md) (18 / 25)
-- [2016](Puzzles/Y2016/README.md) (22 / 25)
+- [2016](Puzzles/Y2016/README.md) (23 / 25)
 - [2015](Puzzles/Y2015/README.md) (25 / 25)
 
 ## Solving a puzzle
