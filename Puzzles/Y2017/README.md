@@ -3,7 +3,7 @@
 | Day | Title | Part 1 | Part 2 |
 | --: | :---- | :----- | :----- |
 | 1 | [Inverse Captcha](https://adventofcode.com/2017/day/1) | [Part 1](D01/PartA.cs) | [Part 2](D01/PartB.cs) |
-| 2 | [???](https://adventofcode.com/2017/day/2) |  |  |
+| 2 | [Corruption Checksum](https://adventofcode.com/2017/day/2) | [Part 1](D02/PartA.cs) | [Part 2](D02/PartB.cs) |
 | 3 | [???](https://adventofcode.com/2017/day/3) |  |  |
 | 4 | [???](https://adventofcode.com/2017/day/4) |  |  |
 | 5 | [???](https://adventofcode.com/2017/day/5) |  |  |
