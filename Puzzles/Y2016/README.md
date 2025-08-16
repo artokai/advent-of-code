@@ -26,4 +26,4 @@
 | 22 | [Grid Computing](https://adventofcode.com/2016/day/22) | [Part 1](D22/PartA.cs) | [Part 2](D22/PartB.cs) |
 | 23 | [Safe Cracking](https://adventofcode.com/2016/day/23) | [Part 1](D23/PartA.cs) | [Part 2](D23/PartB.cs) |
 | 24 | [Air Duct Spelunking](https://adventofcode.com/2016/day/24) | [Part 1](D24/PartA.cs) | [Part 2](D24/PartB.cs) |
-| 25 | [???](https://adventofcode.com/2016/day/25) |  |  |
+| 25 | [Clock Signal](https://adventofcode.com/2016/day/25) | [Part 1](D25/PartA.cs) |  |
