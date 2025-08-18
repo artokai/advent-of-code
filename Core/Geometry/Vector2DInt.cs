@@ -12,9 +12,11 @@ public record struct Vector2DInt(int X, int Y)
 
     public static Vector2DInt operator *(Vector2DInt v, int multiplier) => new Vector2DInt(v.X * multiplier, v.Y * multiplier);
 
-    public Vector2DInt TurnLeft() => new Vector2DInt(-Y, X);
-    public Vector2DInt TurnRight() => new Vector2DInt(Y, -X);
+    public Vector2DInt TurnLeft() => new Vector2DInt(Y, -X);
+    public Vector2DInt TurnRight() => new Vector2DInt(-Y, X);
     public Vector2DInt Turn180() => new Vector2DInt(-X, -Y);
+
+    public int ManhattanDistance() => System.Math.Abs(X) + System.Math.Abs(Y);
 
     public override string ToString() => $"({X}, {Y})";
 }
