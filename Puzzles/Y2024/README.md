@@ -21,7 +21,7 @@
 | 17 | [Chronospatial Computer](https://adventofcode.com/2024/day/17) | [Part 1](D17/PartA.cs) | [Part 2](D17/PartB.cs) |
 | 18 | [RAM Run](https://adventofcode.com/2024/day/18) | [Part 1](D18/PartA.cs) | [Part 2](D18/PartB.cs) |
 | 19 | [Linen Layout](https://adventofcode.com/2024/day/19) | [Part 1](D19/PartA.cs) | [Part 2](D19/PartB.cs) |
-| 20 | [???](https://adventofcode.com/2024/day/20) |  |  |
+| 20 | [Race Condition](https://adventofcode.com/2024/day/20) | [Part 1](D20/PartA.cs) | [Part 2](D20/PartB.cs) |
 | 21 | [???](https://adventofcode.com/2024/day/21) |  |  |
 | 22 | [???](https://adventofcode.com/2024/day/22) |  |  |
 | 23 | [???](https://adventofcode.com/2024/day/23) |  |  |
