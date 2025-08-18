@@ -6,7 +6,7 @@
 | 2 | [Corruption Checksum](https://adventofcode.com/2017/day/2) | [Part 1](D02/PartA.cs) | [Part 2](D02/PartB.cs) |
 | 3 | [Spiral Memory](https://adventofcode.com/2017/day/3) | [Part 1](D03/PartA.cs) | [Part 2](D03/PartB.cs) |
 | 4 | [High-Entropy Passphrases](https://adventofcode.com/2017/day/4) | [Part 1](D04/PartA.cs) | [Part 2](D04/PartB.cs) |
-| 5 | [???](https://adventofcode.com/2017/day/5) |  |  |
+| 5 | [A Maze of Twisty Trampolines, All Alike](https://adventofcode.com/2017/day/5) | [Part 1](D05/PartA.cs) | [Part 2](D05/PartB.cs) |
 | 6 | [???](https://adventofcode.com/2017/day/6) |  |  |
 | 7 | [???](https://adventofcode.com/2017/day/7) |  |  |
 | 8 | [???](https://adventofcode.com/2017/day/8) |  |  |
