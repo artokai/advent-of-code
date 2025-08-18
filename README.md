@@ -25,7 +25,7 @@ This repository contains my solutions to the puzzles I've solved so far. The rep
 | 16 | [???](https://adventofcode.com/2024/day/16) |  |  |
 | 17 | [Chronospatial Computer](https://adventofcode.com/2024/day/17) | [Part 1](Puzzles/Y2024/D17/PartA.cs) | [Part 2](Puzzles/Y2024/D17/PartB.cs) |
 | 18 | [RAM Run](https://adventofcode.com/2024/day/18) | [Part 1](Puzzles/Y2024/D18/PartA.cs) | [Part 2](Puzzles/Y2024/D18/PartB.cs) |
-| 19 | [???](https://adventofcode.com/2024/day/19) |  |  |
+| 19 | [Linen Layout](https://adventofcode.com/2024/day/19) | [Part 1](Puzzles/Y2024/D19/PartA.cs) | [Part 2](Puzzles/Y2024/D19/PartB.cs) |
 | 20 | [???](https://adventofcode.com/2024/day/20) |  |  |
 | 21 | [???](https://adventofcode.com/2024/day/21) |  |  |
 | 22 | [???](https://adventofcode.com/2024/day/22) |  |  |
@@ -35,7 +35,7 @@ This repository contains my solutions to the puzzles I've solved so far. The rep
 
 ## All years
 
-- [2024](Puzzles/Y2024/README.md) (18 / 25)
+- [2024](Puzzles/Y2024/README.md) (19 / 25)
 - [2017](Puzzles/Y2017/README.md) (3 / 25)
 - [2016](Puzzles/Y2016/README.md) (25 / 25)
 - [2015](Puzzles/Y2015/README.md) (25 / 25)
