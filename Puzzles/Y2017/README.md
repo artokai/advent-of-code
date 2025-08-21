@@ -17,7 +17,7 @@
 | 13 | [Packet Scanners](https://adventofcode.com/2017/day/13) | [Part 1](D13/PartA.cs) | [Part 2](D13/PartB.cs) |
 | 14 | [Disk Defragmentation](https://adventofcode.com/2017/day/14) | [Part 1](D14/PartA.cs) | [Part 2](D14/PartB.cs) |
 | 15 | [Dueling Generators](https://adventofcode.com/2017/day/15) | [Part 1](D15/PartA.cs) | [Part 2](D15/PartB.cs) |
-| 16 | [???](https://adventofcode.com/2017/day/16) |  |  |
+| 16 | [Permutation Promenade](https://adventofcode.com/2017/day/16) | [Part 1](D16/PartA.cs) | [Part 2](D16/PartB.cs) |
 | 17 | [???](https://adventofcode.com/2017/day/17) |  |  |
 | 18 | [???](https://adventofcode.com/2017/day/18) |  |  |
 | 19 | [???](https://adventofcode.com/2017/day/19) |  |  |
