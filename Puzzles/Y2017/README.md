@@ -23,7 +23,7 @@
 | 19 | [A Series of Tubes](https://adventofcode.com/2017/day/19) | [Part 1](D19/PartA.cs) | [Part 2](D19/PartB.cs) |
 | 20 | [Particle Swarm](https://adventofcode.com/2017/day/20) | [Part 1](D20/PartA.cs) | [Part 2](D20/PartB.cs) |
 | 21 | [Fractal Art](https://adventofcode.com/2017/day/21) | [Part 1](D21/PartA.cs) | [Part 2](D21/PartB.cs) |
-| 22 | [???](https://adventofcode.com/2017/day/22) |  |  |
+| 22 | [Sporifica Virus](https://adventofcode.com/2017/day/22) | [Part 1](D22/PartA.cs) | [Part 2](D22/PartB.cs) |
 | 23 | [???](https://adventofcode.com/2017/day/23) |  |  |
 | 24 | [???](https://adventofcode.com/2017/day/24) |  |  |
 | 25 | [???](https://adventofcode.com/2017/day/25) |  |  |
