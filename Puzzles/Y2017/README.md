@@ -25,5 +25,5 @@
 | 21 | [Fractal Art](https://adventofcode.com/2017/day/21) | [Part 1](D21/PartA.cs) | [Part 2](D21/PartB.cs) |
 | 22 | [Sporifica Virus](https://adventofcode.com/2017/day/22) | [Part 1](D22/PartA.cs) | [Part 2](D22/PartB.cs) |
 | 23 | [Coprocessor Conflagration](https://adventofcode.com/2017/day/23) | [Part 1](D23/PartA.cs) | [Part 2](D23/PartB.cs) |
-| 24 | [???](https://adventofcode.com/2017/day/24) |  |  |
+| 24 | [Electromagnetic Moat](https://adventofcode.com/2017/day/24) | [Part 1](D24/PartA.cs) | [Part 2](D24/PartB.cs) |
 | 25 | [???](https://adventofcode.com/2017/day/25) |  |  |
