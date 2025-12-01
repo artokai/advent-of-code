@@ -68,6 +68,12 @@ public class UpdateDocsHandler
         return years;
     }
 
+    private int GetPuzzleDaysInYear(int year)
+    {
+        // Starting from 2025 there are only 12 puzzle days per year
+        return year < 2025 ? 25 : 12;
+    }
+
     private void WriteYearlyMarkdown(int year, Dictionary<int, PuzzleInfo> puzzles)
     {
         var sb = new StringBuilder();
@@ -75,7 +81,9 @@ public class UpdateDocsHandler
         sb.Append('\n');
         sb.Append("| Day | Title | Part 1 | Part 2 |\n");
         sb.Append("| --: | :---- | :----- | :----- |\n");
-        for (var day = 1; day <= 25; day++)
+
+        var puzzleDaysInYear = GetPuzzleDaysInYear(year);
+        for (var day = 1; day <= puzzleDaysInYear; day++)
         {
             var puzzleInfo = puzzles.ContainsKey(day) ? puzzles[day] : null;
             var title = (puzzleInfo != null) ? puzzles[day].Title : "???";
@@ -100,11 +108,14 @@ public class UpdateDocsHandler
             {
                 shouldSkip = true;
                 var year = puzzles.Keys.OrderByDescending(year => year).First();
+                var puzzleDaysInYear = GetPuzzleDaysInYear(year);
+
                 sb.Append($"## Year {year}\n");
                 sb.Append('\n');
                 sb.Append("| Day | Title | Part 1 | Part 2 |\n");
                 sb.Append("| --: | :---- | :----- | :----- |\n");
-                for (var day = 1; day <= 25; day++)
+
+                for (var day = 1; day <= puzzleDaysInYear; day++)
                 {
                     var puzzleInfo = puzzles[year].ContainsKey(day) ? puzzles[year][day] : null;
                     var title = (puzzleInfo != null) ? puzzleInfo.Title : "???";
@@ -123,7 +134,8 @@ public class UpdateDocsHandler
                 foreach (var year in puzzles.Keys.OrderByDescending(year => year))
                 {
                     var completedDaysCount = puzzles[year].Values.Count();
-                    sb.Append($"- [{year}](Puzzles/Y{year}/README.md) ({completedDaysCount} / 25)\n");
+                    var puzzleDaysInYear = GetPuzzleDaysInYear(year);
+                    sb.Append($"- [{year}](Puzzles/Y{year}/README.md) ({completedDaysCount} / {puzzleDaysInYear})\n");
                 }
                 sb.Append("\n");
             }
