@@ -8,7 +8,7 @@ This repository contains my solutions to the puzzles I've solved so far. The rep
 | Day | Title | Part 1 | Part 2 |
 | --: | :---- | :----- | :----- |
 | 1 | [Secret Entrance](https://adventofcode.com/2025/day/1) | [Part 1](Puzzles/Y2025/D01/PartA.cs) | [Part 2](Puzzles/Y2025/D01/PartB.cs) |
-| 2 | [???](https://adventofcode.com/2025/day/2) |  |  |
+| 2 | [Gift Shop](https://adventofcode.com/2025/day/2) | [Part 1](Puzzles/Y2025/D02/PartA.cs) | [Part 2](Puzzles/Y2025/D02/PartB.cs) |
 | 3 | [???](https://adventofcode.com/2025/day/3) |  |  |
 | 4 | [???](https://adventofcode.com/2025/day/4) |  |  |
 | 5 | [???](https://adventofcode.com/2025/day/5) |  |  |
@@ -22,7 +22,7 @@ This repository contains my solutions to the puzzles I've solved so far. The rep
 
 ## All years
 
-- [2025](Puzzles/Y2025/README.md) (1 / 12)
+- [2025](Puzzles/Y2025/README.md) (2 / 12)
 - [2024](Puzzles/Y2024/README.md) (20 / 25)
 - [2017](Puzzles/Y2017/README.md) (25 / 25)
 - [2016](Puzzles/Y2016/README.md) (25 / 25)
