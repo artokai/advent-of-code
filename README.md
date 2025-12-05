@@ -11,7 +11,7 @@ This repository contains my solutions to the puzzles I've solved so far. The rep
 | 2 | [Gift Shop](https://adventofcode.com/2025/day/2) | [Part 1](Puzzles/Y2025/D02/PartA.cs) | [Part 2](Puzzles/Y2025/D02/PartB.cs) |
 | 3 | [Lobby](https://adventofcode.com/2025/day/3) | [Part 1](Puzzles/Y2025/D03/PartA.cs) | [Part 2](Puzzles/Y2025/D03/PartB.cs) |
 | 4 | [Printing Department](https://adventofcode.com/2025/day/4) | [Part 1](Puzzles/Y2025/D04/PartA.cs) | [Part 2](Puzzles/Y2025/D04/PartB.cs) |
-| 5 | [???](https://adventofcode.com/2025/day/5) |  |  |
+| 5 | [Cafeteria](https://adventofcode.com/2025/day/5) | [Part 1](Puzzles/Y2025/D05/PartA.cs) | [Part 2](Puzzles/Y2025/D05/PartB.cs) |
 | 6 | [???](https://adventofcode.com/2025/day/6) |  |  |
 | 7 | [???](https://adventofcode.com/2025/day/7) |  |  |
 | 8 | [???](https://adventofcode.com/2025/day/8) |  |  |
@@ -22,7 +22,7 @@ This repository contains my solutions to the puzzles I've solved so far. The rep
 
 ## All years
 
-- [2025](Puzzles/Y2025/README.md) (4 / 12)
+- [2025](Puzzles/Y2025/README.md) (5 / 12)
 - [2024](Puzzles/Y2024/README.md) (20 / 25)
 - [2017](Puzzles/Y2017/README.md) (25 / 25)
 - [2016](Puzzles/Y2016/README.md) (25 / 25)
