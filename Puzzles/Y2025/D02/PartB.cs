@@ -1,4 +1,3 @@
-using System.Text.RegularExpressions;
 using Artokai.AOC.Core;
 
 namespace Artokai.AOC.Puzzles.Y2025.D02;
@@ -37,9 +36,9 @@ public class PartB : SolverBase
                 continue;
 
             var repetitions = length / subLength;
-            string pattern = @"^(\d{" + subLength + @"})\1{" + (repetitions - 1) + "}$";
-            var re = new Regex(pattern);
-            if (re.IsMatch(idStr))
+            var repeatingPart = idStr.Substring(0, subLength);
+            var repeated = string.Concat(Enumerable.Repeat(repeatingPart, repetitions));
+            if (idStr == repeated)
                 return true;
         }
 
