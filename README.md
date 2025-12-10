@@ -16,13 +16,13 @@ This repository contains my solutions to the puzzles I've solved so far. The rep
 | 7 | [Laboratories](https://adventofcode.com/2025/day/7) | [Part 1](Puzzles/Y2025/D07/PartA.cs) | [Part 2](Puzzles/Y2025/D07/PartB.cs) |
 | 8 | [Playground](https://adventofcode.com/2025/day/8) | [Part 1](Puzzles/Y2025/D08/PartA.cs) | [Part 2](Puzzles/Y2025/D08/PartB.cs) |
 | 9 | [Movie Theater](https://adventofcode.com/2025/day/9) | [Part 1](Puzzles/Y2025/D09/PartA.cs) | [Part 2](Puzzles/Y2025/D09/PartB.cs) |
-| 10 | [???](https://adventofcode.com/2025/day/10) |  |  |
+| 10 | [Factory](https://adventofcode.com/2025/day/10) | [Part 1](Puzzles/Y2025/D10/PartA.cs) | [Part 2](Puzzles/Y2025/D10/PartB.cs) |
 | 11 | [???](https://adventofcode.com/2025/day/11) |  |  |
 | 12 | [???](https://adventofcode.com/2025/day/12) |  |  |
 
 ## All years
 
-- [2025](Puzzles/Y2025/README.md) (9 / 12)
+- [2025](Puzzles/Y2025/README.md) (10 / 12)
 - [2024](Puzzles/Y2024/README.md) (20 / 25)
 - [2017](Puzzles/Y2017/README.md) (25 / 25)
 - [2016](Puzzles/Y2016/README.md) (25 / 25)
