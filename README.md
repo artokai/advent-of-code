@@ -69,3 +69,22 @@ The runner can also be used to fetch only the `input.txt` for existing solutions
 cd CliTool
 dotnet run -- fetch --year <year> --day <day>
 ```
+
+## Updating documentation
+
+The runner can automatically update the README files for all puzzle solutions.
+
+```
+cd CliTool
+dotnet run -- updatedocs
+```
+
+## Cleaning build artifacts
+
+The runner can clean build artifacts (bin, obj, publish, etc...) from
+all puzzle solution directories.
+
+```
+cd CliTool
+dotnet run -- clean
+```
