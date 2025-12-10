@@ -1,7 +1,6 @@
-using System.Reflection;
 using System.Text;
+using System.Text.RegularExpressions;
 using Microsoft.Extensions.Configuration;
-using Artokai.AOC.Core;
 
 namespace Artokai.AOC.CliTool.Handlers;
 
@@ -35,16 +34,28 @@ public class UpdateDocsHandler
 
     private Dictionary<int, Dictionary<int, PuzzleInfo>> GetPuzzles()
     {
-        var solvers = Assembly.GetExecutingAssembly().GetTypes()
-            .Select(t => new { Type = t, Attr = t.GetCustomAttribute<PuzzleInfoAttribute>() })
-            .Where(p => p.Attr != null);
-
         var years = new Dictionary<int, Dictionary<int, PuzzleInfo>>();
-        foreach (var pair in solvers)
+        var puzzlesPath = Path.GetFullPath(@"..\Puzzles");
+
+        if (!Directory.Exists(puzzlesPath))
         {
-            var attr = pair.Attr!;
-            var year = attr.Year;
-            var day = attr.Day;
+            return years;
+        }
+
+        // Find all .cs files in puzzle directories
+        var partFiles = Directory.GetFiles(puzzlesPath, "*.cs", SearchOption.AllDirectories);
+
+        foreach (var filePath in partFiles)
+        {
+            var puzzleInfo = ExtractPuzzleInfoFromFile(filePath);
+            if (puzzleInfo == null)
+                continue;
+
+            var year = puzzleInfo.Value.Year;
+            var day = puzzleInfo.Value.Day;
+            var part = puzzleInfo.Value.Part;
+            var title = puzzleInfo.Value.Title;
+            var filename = Path.GetFileName(filePath);
 
             if (!years.ContainsKey(year))
             {
@@ -53,19 +64,68 @@ public class UpdateDocsHandler
 
             if (!years[year].ContainsKey(day))
             {
-                years[year].Add(day, new PuzzleInfo(year, day, attr.Title, "", ""));
+                years[year].Add(day, new PuzzleInfo(year, day, title, "", ""));
             }
-            var filename = pair.Type.Name + ".cs";
-            if (attr.Part == 1)
+
+            if (part == 1)
             {
                 years[year][day].PartA = filename;
             }
-            if (attr.Part == 2)
+            else if (part == 2)
             {
                 years[year][day].PartB = filename;
             }
         }
+
         return years;
+    }
+
+    private (int Year, int Day, int Part, string Title)? ExtractPuzzleInfoFromFile(string filePath)
+    {
+        try
+        {
+            var content = File.ReadAllText(filePath);
+            
+            // Regex to match [PuzzleInfo(...)] with named parameters in any order
+            var pattern = @"\[PuzzleInfo\((.*?)\)\]";
+            var match = Regex.Match(content, pattern, RegexOptions.Singleline);
+            
+            if (!match.Success)
+                return null;
+
+            var parameters = match.Groups[1].Value;
+
+            // Extract year
+            var yearMatch = Regex.Match(parameters, @"year\s*:\s*(\d+)");
+            if (!yearMatch.Success)
+                return null;
+            var year = int.Parse(yearMatch.Groups[1].Value);
+
+            // Extract day
+            var dayMatch = Regex.Match(parameters, @"day\s*:\s*(\d+)");
+            if (!dayMatch.Success)
+                return null;
+            var day = int.Parse(dayMatch.Groups[1].Value);
+
+            // Extract part
+            var partMatch = Regex.Match(parameters, @"part\s*:\s*(\d+)");
+            if (!partMatch.Success)
+                return null;
+            var part = int.Parse(partMatch.Groups[1].Value);
+
+            // Extract title (quoted string)
+            var titleMatch = Regex.Match(parameters, @"title\s*:\s*""([^""]*)""");
+            if (!titleMatch.Success)
+                return null;
+            var title = titleMatch.Groups[1].Value;
+
+            return (year, day, part, title);
+        }
+        catch
+        {
+            // Silently skip files that can't be parsed
+            return null;
+        }
     }
 
     private int GetPuzzleDaysInYear(int year)
