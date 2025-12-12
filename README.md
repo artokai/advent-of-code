@@ -18,11 +18,11 @@ This repository contains my solutions to the puzzles I've solved so far. The rep
 | 9 | [Movie Theater](https://adventofcode.com/2025/day/9) | [Part 1](Puzzles/Y2025/D09/PartA.cs) | [Part 2](Puzzles/Y2025/D09/PartB.cs) |
 | 10 | [Factory](https://adventofcode.com/2025/day/10) | [Part 1](Puzzles/Y2025/D10/PartA.cs) | [Part 2](Puzzles/Y2025/D10/PartB.cs) |
 | 11 | [Reactor](https://adventofcode.com/2025/day/11) | [Part 1](Puzzles/Y2025/D11/PartA.cs) | [Part 2](Puzzles/Y2025/D11/PartB.cs) |
-| 12 | [???](https://adventofcode.com/2025/day/12) |  |  |
+| 12 | [Christmas Tree Farm](https://adventofcode.com/2025/day/12) | [Part 1](Puzzles/Y2025/D12/PartA.cs) |  |
 
 ## All years
 
-- [2025](Puzzles/Y2025/README.md) (11 / 12)
+- [2025](Puzzles/Y2025/README.md) (12 / 12)
 - [2024](Puzzles/Y2024/README.md) (20 / 25)
 - [2017](Puzzles/Y2017/README.md) (25 / 25)
 - [2016](Puzzles/Y2016/README.md) (25 / 25)

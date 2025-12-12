@@ -13,4 +13,4 @@
 | 9 | [Movie Theater](https://adventofcode.com/2025/day/9) | [Part 1](D09/PartA.cs) | [Part 2](D09/PartB.cs) |
 | 10 | [Factory](https://adventofcode.com/2025/day/10) | [Part 1](D10/PartA.cs) | [Part 2](D10/PartB.cs) |
 | 11 | [Reactor](https://adventofcode.com/2025/day/11) | [Part 1](D11/PartA.cs) | [Part 2](D11/PartB.cs) |
-| 12 | [???](https://adventofcode.com/2025/day/12) |  |  |
+| 12 | [Christmas Tree Farm](https://adventofcode.com/2025/day/12) | [Part 1](D12/PartA.cs) |  |
