@@ -5,7 +5,7 @@
 | 1 | [Chronal Calibration](https://adventofcode.com/2018/day/1) | [Part 1](D01/PartA.cs) | [Part 2](D01/PartB.cs) |
 | 2 | [Inventory Management System](https://adventofcode.com/2018/day/2) | [Part 1](D02/PartA.cs) | [Part 2](D02/PartB.cs) |
 | 3 | [No Matter How You Slice It](https://adventofcode.com/2018/day/3) | [Part 1](D03/PartA.cs) | [Part 2](D03/PartB.cs) |
-| 4 | [???](https://adventofcode.com/2018/day/4) |  |  |
+| 4 | [Repose Record](https://adventofcode.com/2018/day/4) | [Part 1](D04/PartA.cs) | [Part 2](D04/PartB.cs) |
 | 5 | [???](https://adventofcode.com/2018/day/5) |  |  |
 | 6 | [???](https://adventofcode.com/2018/day/6) |  |  |
 | 7 | [???](https://adventofcode.com/2018/day/7) |  |  |
