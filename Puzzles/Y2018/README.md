@@ -7,7 +7,7 @@
 | 3 | [No Matter How You Slice It](https://adventofcode.com/2018/day/3) | [Part 1](D03/PartA.cs) | [Part 2](D03/PartB.cs) |
 | 4 | [Repose Record](https://adventofcode.com/2018/day/4) | [Part 1](D04/PartA.cs) | [Part 2](D04/PartB.cs) |
 | 5 | [Alchemical Reduction](https://adventofcode.com/2018/day/5) | [Part 1](D05/PartA.cs) | [Part 2](D05/PartB.cs) |
-| 6 | [???](https://adventofcode.com/2018/day/6) |  |  |
+| 6 | [Chronal Coordinates](https://adventofcode.com/2018/day/6) | [Part 1](D06/PartA.cs) | [Part 2](D06/PartB.cs) |
 | 7 | [???](https://adventofcode.com/2018/day/7) |  |  |
 | 8 | [???](https://adventofcode.com/2018/day/8) |  |  |
 | 9 | [???](https://adventofcode.com/2018/day/9) |  |  |
